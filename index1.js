@@ -1,7 +1,7 @@
 let counter = 1;
 
 function getall() {
-    fetch('https://api-e7by.onrender.com/stu')
+    fetch('https://api-gqjw.onrender.com/stu')
         .then(response => response.json())
         .then(json =>
             json.forEach(stu => {
